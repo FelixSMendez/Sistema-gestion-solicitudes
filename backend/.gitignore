@@ -1,0 +1,51 @@
+# Environment
+.env
+.env.local
+.env.backup
+.env.production
+.env.*.local
+
+# Dependencies
+/vendor
+/node_modules
+
+# Build & Hot Module Replacement
+/public/build
+/public/hot
+
+# Storage
+/storage/*.key
+/storage/logs/
+/storage/pail
+/public/storage
+
+# IDE & Editor
+/.vscode
+/.idea
+/.fleet
+/.nova
+/.zed
+.phpactor.json
+
+# Testing
+.phpunit.result.cache
+/.phpunit.cache
+
+# System files
+.DS_Store
+._*
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log
+yarn-error.log
+
+# Security
+*.pem
+*.key
+/auth.json
+
+# Development
+Homestead.json
+Homestead.yaml
