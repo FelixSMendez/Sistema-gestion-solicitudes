@@ -15,13 +15,12 @@ class SolicitudSeeder extends Seeder
     public function run(): void
     {
         $users = User::all();
-
         foreach ($users as $user) {
             Solicitud::create([
                 'user_id' => $user->id,
-                'tipo_solicitud' => 'Tipo de solicitud de ejemplo',
+                'titulo' => 'Permiso de ejemplo',
                 'descripcion' => 'Descripción de ejemplo para la solicitud.',
-                'estado' => 'pendiente',
+                'estado' => 'Pendiente',
             ]);
         }
     }
