@@ -22,8 +22,10 @@ Instalación:
         -Node.js >= 18
         -MySQL
         -Git
+        -XAMPP (EN ENTORNO WINDOWS)
+            -7-ZIP para XAMPP
 
-    1.Clonamos Repositorio:
+    1.Clonamos Repositorio en la carpeta ../XAMPP/htdocs:
         git clone https://github.com/FelixSMendez/Sistema-gestion-solicitudes.git
 
     2.Configuramos Backend:
