@@ -39,6 +39,9 @@ Instalación:
         #copiar archivo de configuración
         cp .env.example .env
 
+        # Generar key de la aplicación
+        php artisan key:generate
+
         #Crear la base de datos en mysql con el nombre que vayas a usar
 
         #Configurar base de datos en .env
@@ -80,6 +83,9 @@ Instalación:
     Otro usuario:
         Email: usuario2@test.com
         Password: password
+> [!IMPORTANT]
+> Restricciones ❌:
+    No se puede abrir en un mismo navegador una sesion de usuario y admin, podria generar errores con las restricciones para cada usuario
 
 API Endpoints
 Autenticación
